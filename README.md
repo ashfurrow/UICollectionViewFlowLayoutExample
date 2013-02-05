@@ -10,5 +10,5 @@ Demonstrates:
 
 I might add some more cool layouts later. This is all in anticipation for a book on `UICollectionView` I'm working on. Keep your ears open for news of it. 
 
-![Small layout](http://static.ashfurrow.com.s3.amazonaws.com/github/UICollectionViewExampleSmall.png)
-![Large layout](http://static.ashfurrow.com.s3.amazonaws.com/github/UICollectionViewExampleLarge.png)
+![Small layout](http://static.ashfurrow.com.s3.amazonaws.com/github/UICollectionViewExampleSmall.png) 
+![Large layout](http://static.ashfurrow.com.s3.amazonaws.com/github/UICollectionViewExampleLarge.png) 
