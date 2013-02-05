@@ -1,5 +1,5 @@
 //
-//  AFViewController.h
+//  AFCollectionViewCell.h
 //  UICollectionViewFlowLayoutExample
 //
 //  Created by Ash Furrow on 2013-02-05.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AFViewController : UICollectionViewController
+@interface AFCollectionViewCell : UICollectionViewCell
+
+-(void)setImage:(UIImage *)image;
 
 @end

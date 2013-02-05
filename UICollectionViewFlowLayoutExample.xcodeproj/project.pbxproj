@@ -17,7 +17,13 @@
 		5EA038FA16C1BE2C0078F397 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EA038F916C1BE2C0078F397 /* Default@2x.png */; };
 		5EA038FC16C1BE2C0078F397 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EA038FB16C1BE2C0078F397 /* Default-568h@2x.png */; };
 		5EA038FF16C1BE2C0078F397 /* AFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA038FE16C1BE2C0078F397 /* AFViewController.m */; };
-		5EA0390216C1BE2C0078F397 /* AFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EA0390016C1BE2C0078F397 /* AFViewController.xib */; };
+		5EA0390B16C1BEEE0078F397 /* AFCollectionViewFlowSmallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA0390A16C1BEEE0078F397 /* AFCollectionViewFlowSmallLayout.m */; };
+		5EA0390F16C1C0300078F397 /* AFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA0390E16C1C0300078F397 /* AFCollectionViewCell.m */; };
+		5EA0391216C1C1860078F397 /* AFCollectionViewFlowLargeLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA0391116C1C1850078F397 /* AFCollectionViewFlowLargeLayout.m */; };
+		5EA0391816C1C2C20078F397 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EA0391416C1C2C10078F397 /* 0.jpg */; };
+		5EA0391916C1C2C20078F397 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EA0391516C1C2C10078F397 /* 1.jpg */; };
+		5EA0391A16C1C2C20078F397 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EA0391616C1C2C10078F397 /* 2.jpg */; };
+		5EA0391B16C1C2C20078F397 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EA0391716C1C2C10078F397 /* 3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +42,16 @@
 		5EA038FB16C1BE2C0078F397 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5EA038FD16C1BE2C0078F397 /* AFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFViewController.h; sourceTree = "<group>"; };
 		5EA038FE16C1BE2C0078F397 /* AFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFViewController.m; sourceTree = "<group>"; };
-		5EA0390116C1BE2C0078F397 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AFViewController.xib; sourceTree = "<group>"; };
+		5EA0390916C1BEEE0078F397 /* AFCollectionViewFlowSmallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCollectionViewFlowSmallLayout.h; sourceTree = "<group>"; };
+		5EA0390A16C1BEEE0078F397 /* AFCollectionViewFlowSmallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCollectionViewFlowSmallLayout.m; sourceTree = "<group>"; };
+		5EA0390D16C1C0300078F397 /* AFCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCollectionViewCell.h; sourceTree = "<group>"; };
+		5EA0390E16C1C0300078F397 /* AFCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCollectionViewCell.m; sourceTree = "<group>"; };
+		5EA0391016C1C1850078F397 /* AFCollectionViewFlowLargeLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCollectionViewFlowLargeLayout.h; sourceTree = "<group>"; };
+		5EA0391116C1C1850078F397 /* AFCollectionViewFlowLargeLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCollectionViewFlowLargeLayout.m; sourceTree = "<group>"; };
+		5EA0391416C1C2C10078F397 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		5EA0391516C1C2C10078F397 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		5EA0391616C1C2C10078F397 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		5EA0391716C1C2C10078F397 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +98,11 @@
 		5EA038EB16C1BE2C0078F397 /* UICollectionViewFlowLayoutExample */ = {
 			isa = PBXGroup;
 			children = (
+				5EA0391C16C1C2C70078F397 /* Images */,
 				5EA038F416C1BE2C0078F397 /* AFAppDelegate.h */,
 				5EA038F516C1BE2C0078F397 /* AFAppDelegate.m */,
-				5EA038FD16C1BE2C0078F397 /* AFViewController.h */,
-				5EA038FE16C1BE2C0078F397 /* AFViewController.m */,
-				5EA0390016C1BE2C0078F397 /* AFViewController.xib */,
+				5EA0390C16C1BEF30078F397 /* Collection View Extensions */,
+				5EA0390816C1BECA0078F397 /* Controller */,
 				5EA038EC16C1BE2C0078F397 /* Supporting Files */,
 			);
 			path = UICollectionViewFlowLayoutExample;
@@ -105,6 +120,39 @@
 				5EA038FB16C1BE2C0078F397 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EA0390816C1BECA0078F397 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5EA038FD16C1BE2C0078F397 /* AFViewController.h */,
+				5EA038FE16C1BE2C0078F397 /* AFViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5EA0390C16C1BEF30078F397 /* Collection View Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5EA0390916C1BEEE0078F397 /* AFCollectionViewFlowSmallLayout.h */,
+				5EA0390A16C1BEEE0078F397 /* AFCollectionViewFlowSmallLayout.m */,
+				5EA0391016C1C1850078F397 /* AFCollectionViewFlowLargeLayout.h */,
+				5EA0391116C1C1850078F397 /* AFCollectionViewFlowLargeLayout.m */,
+				5EA0390D16C1C0300078F397 /* AFCollectionViewCell.h */,
+				5EA0390E16C1C0300078F397 /* AFCollectionViewCell.m */,
+			);
+			name = "Collection View Extensions";
+			sourceTree = "<group>";
+		};
+		5EA0391C16C1C2C70078F397 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5EA0391416C1C2C10078F397 /* 0.jpg */,
+				5EA0391516C1C2C10078F397 /* 1.jpg */,
+				5EA0391616C1C2C10078F397 /* 2.jpg */,
+				5EA0391716C1C2C10078F397 /* 3.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +211,10 @@
 				5EA038F816C1BE2C0078F397 /* Default.png in Resources */,
 				5EA038FA16C1BE2C0078F397 /* Default@2x.png in Resources */,
 				5EA038FC16C1BE2C0078F397 /* Default-568h@2x.png in Resources */,
-				5EA0390216C1BE2C0078F397 /* AFViewController.xib in Resources */,
+				5EA0391816C1C2C20078F397 /* 0.jpg in Resources */,
+				5EA0391916C1C2C20078F397 /* 1.jpg in Resources */,
+				5EA0391A16C1C2C20078F397 /* 2.jpg in Resources */,
+				5EA0391B16C1C2C20078F397 /* 3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +228,9 @@
 				5EA038F216C1BE2C0078F397 /* main.m in Sources */,
 				5EA038F616C1BE2C0078F397 /* AFAppDelegate.m in Sources */,
 				5EA038FF16C1BE2C0078F397 /* AFViewController.m in Sources */,
+				5EA0390B16C1BEEE0078F397 /* AFCollectionViewFlowSmallLayout.m in Sources */,
+				5EA0390F16C1C0300078F397 /* AFCollectionViewCell.m in Sources */,
+				5EA0391216C1C1860078F397 /* AFCollectionViewFlowLargeLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +243,6 @@
 				5EA038EF16C1BE2C0078F397 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5EA0390016C1BE2C0078F397 /* AFViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EA0390116C1BE2C0078F397 /* en */,
-			);
-			name = AFViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
