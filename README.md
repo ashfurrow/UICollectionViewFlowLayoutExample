@@ -10,5 +10,7 @@ Demonstrates:
 
 More notes [here](http://ashfurrow.com/blog/uicollectionview-example-with-uicollectionviewflowlayout).
 
+See a Swift implementation of this project [here](https://github.com/EduardLev/UICollectionViewFlowLayoutExample_Swift)
+
 ![Small layout](http://static.ashfurrow.com.s3.amazonaws.com/github/UICollectionViewExampleSmall.png) 
 ![Large layout](http://static.ashfurrow.com.s3.amazonaws.com/github/UICollectionViewExampleLarge.png) 
